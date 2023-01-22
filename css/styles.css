@@ -1169,12 +1169,6 @@ body{
     overflow: hidden;
 }
 
-@media screen and (min-width: 768px) {
-    
-    .image-overlay{
-        width: 356px;
-    }
-}
 
 .overlay-dis{
     position: absolute;
@@ -1228,6 +1222,38 @@ body{
     border-color: transparent;
 }
 
+@media screen and (max-width: 767.98px) {
+
+    .image-overlay {
+            width: 396px;
+        }
+
+    .partfolio-img {
+        width: 396px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .image-overlay {
+            width: 356px;
+        }
+
+    .partfolio-img {
+        width: 356px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .image-overlay {
+            width: 360px;
+        }
+
+    .partfolio-img {
+        width: 360px;
+    }
+}
 /*#endregion -------------------- Categories/Content End -------------------- */
 
 /*#region ---Mobile menu--- */
