@@ -448,6 +448,9 @@ body{
         padding-top: 138px;
         padding-bottom: 138px;
     }
+    .hero-title{
+        margin-bottom: 48px;
+    }
 
 }
 
