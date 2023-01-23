@@ -438,6 +438,15 @@ body{
         min-width: 496px;
         font-size: 56px;
         line-height: 1.07;
+        margin-bottom: 40px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .hero{
+        padding-top: 138px;
+        padding-bottom: 138px;
     }
 
 }
@@ -661,6 +670,13 @@ body{
     color: var(--iris);
 }
 
+@media screen and (min-width: 320px) and (max-width: 427.98px) {
+    .modal{
+        width: 90%;
+        min-width: 300px;
+    }
+}
+
 
 
 /*#endregion -------------------- Modal End -------------------- */
@@ -737,6 +753,11 @@ body{
 }
 
 @media screen and (min-width: 1200px) {
+
+    .features{
+        padding-bottom: 0;
+    }
+
     .features-img{
         display: flex;
     }
@@ -749,6 +770,9 @@ body{
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
+    }
+    .feature-text{
+        font-weight: 400;
     }
 }
 
@@ -911,6 +935,8 @@ body{
 
 .footer {
     background-color: var(--nuvy-blue);
+    padding-bottom: 96px;
+    padding-top: 96px;
 }
 
 .footer-block{
@@ -1087,9 +1113,12 @@ body{
 }
 
 @media screen and (min-width: 1200px) {
-    .footer-block {
-        padding-top: 100px;
+    .footer{
         padding-bottom: 100px;
+        padding-top: 100px;
+    }
+    
+    .footer-block {
         width: 1158px;
         flex-wrap: nowrap;
         column-gap: 80px;
@@ -1168,6 +1197,8 @@ body{
     position: relative;
     overflow: hidden;
 }
+
+
 
 
 .overlay-dis{
@@ -1436,6 +1467,17 @@ body{
 .mobile-soc-icon{
     width: 24px;
     height: 24px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 427.98px) {
+    .mobile-contacts-link.accent {
+        font-size: 7vw;
+    }
+
+    .mobile-list-soc {
+        gap: 20px;
+        justify-content: center;
+    }
 }
 
 /*#endregion -------------------- Categories/Content End -------------------- */
