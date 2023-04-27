@@ -1,78 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WEBSTUDIO</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <header class="header">
-      <div class="container header-block">
-        <nav class="main-naw">
-          <a class="logo link" href="index.html">
-            <span class="header-logo-first">WEB</span><span class="header-logo-second">STUDIO</span>
-          </a>
-          <ul class="menu-list list">
-            <li class="item">
-              <a class="menu-item current link" href="./index.html">Studio</a>
-            </li>
-            <li class="item">
-              <a class="menu-item link" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li class="item">
-              <a class="menu-item link" href="#">Contacts</a>
-            </li>
-          </ul>
-        </nav>
+        <div class="container header-block">
+            <nav class="main-naw">
+                <a class="logo link" href="index.html">
+                    <span class="header-logo-first">WEB</span><span class="header-logo-second">STUDIO</span>
+                </a>
+                <ul class="menu-list list">
+                    <li class="item">
+                        <a class="menu-item current link" href="./index.html">Studio</a>
+                    </li>
+                    <li class="item">
+                        <a class="menu-item link" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="item">
+                        <a class="menu-item link" href="#">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
 
-        <ul class="contacts list">
-          <li class="item">
-            <a class="contacts-item link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li class="item">
-            <a class="contacts-item link" href="tel:+11(000)1111111">+11 (000) 111-11-11</a>
-          </li>
-        </ul>
+            <ul class="contacts list">
+                <li class="item">
+                    <a class="contacts-item link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="item">
+                    <a class="contacts-item link" href="tel:+11(000)1111111">+11 (000) 111-11-11</a>
+                </li>
+            </ul>
 
-        <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+            <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
           <svg class="burger-menu" width="32" height="22">
             <use href="./images/icons.svg#icon-menu-hamburger"></use>
           </svg>
         </button>
-      </div>
+        </div>
     </header>
 
     <main>
-      <section class="hero section">
-        <div class="container">
-          <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="hero-btn btn" type="button" data-modal-open>Order Service</button>
-        </div>
-      </section>
+        <section class="hero section">
+            <div class="container">
+                <h1 class="hero-title">Effective Solutions for Your Business</h1>
+                <button class="hero-btn btn" type="button" data-modal-open>Order Service</button>
+            </div>
+        </section>
 
-      <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-          <button data-modal-close class="modal-close btn">
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button data-modal-close class="modal-close btn">
             <svg class="modal-close-icon">
               <use href="./images/icons.svg#icon-closed"></use>
             </svg>
           </button>
 
-          <h3 class="modal-dis">Leave your contacts and we will call you back</h3>
-          <form class="modal-form">
-            <label class="modal-form-lable">
+                <h3 class="modal-dis">Leave your contacts and we will call you back</h3>
+                <form class="modal-form">
+                    <label class="modal-form-lable">
               <span class="modal-form-lable-dis">Name</span>
               <span class="modal-form-input-icon">
                 <input type="text" class="modal-form-input" name="user-name" required />
@@ -82,7 +78,7 @@
               </span>
             </label>
 
-            <label class="modal-form-lable">
+                    <label class="modal-form-lable">
               <span class="modal-form-lable-dis">Phone</span>
               <span class="modal-form-input-icon">
                 <input type="tel" class="modal-form-input" name="user-phone" required />
@@ -92,7 +88,7 @@
               </span>
             </label>
 
-            <label class="modal-form-lable">
+                    <label class="modal-form-lable">
               <span class="modal-form-lable-dis">Email</span>
               <span class="modal-form-input-icon">
                 <input type="email" class="modal-form-input" name="user-email" required />
@@ -102,7 +98,7 @@
               </span>
             </label>
 
-            <label class="modal-form-lable modal-textarea">
+                    <label class="modal-form-lable modal-textarea">
               <span class="modal-form-lable-dis">Comment</span>
               <textarea
                 name="user-comment"
@@ -111,7 +107,7 @@
               ></textarea>
             </label>
 
-            <label for="policy" class="modal-form-check-policy">
+                    <label for="policy" class="modal-form-check-policy">
               <input
                 type="checkbox"
                 id="policy"
@@ -579,3 +575,8 @@
     <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
+
+
+
+<h1>Rest</h1>
+<p>thrueghefdkgkf</p>
